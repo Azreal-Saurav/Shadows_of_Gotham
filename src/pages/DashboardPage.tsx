@@ -142,7 +142,7 @@ const DashboardPage: React.FC = () => {
                           <div>
                             <p>Congratulations! You found the vulnerability!</p>
                             <p className="mt-2 text-riddler-neon font-bold">
-                              FLAG: CTF{"{JWT_TOKENS_ARE_EASILY_TAMPERED_WITH}"}
+                              FLAG: CTF{"ENIGMA{bruce_didnt_sign_it_so_riddler_did}"}
                             </p>
                             <p className="mt-2 text-xs text-gray-400">
                               The JWT implementation had a critical flaw: it didn't properly verify signatures.
